@@ -1,0 +1,17 @@
+.card {
+    padding: 15px;
+}
+
+.hashtag {
+    display: grid;
+    height: 100%;
+    background-color: red;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.hashtag > .item {
+    background-color: var(--color-zero);
+    display: flex;
+    justify-content: center;
+}

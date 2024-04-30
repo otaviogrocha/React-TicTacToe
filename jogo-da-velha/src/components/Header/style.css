@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.header > .logo-collab {
+    width: 130px;
+}
+
+.header > .sobre {
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.header > .menu {
+    width: 25px;
+}
+
+/*@media (min-width: 740px) {*/
+/*    .header {*/
+/*        background-color: var(--color-tenth);*/
+/*    }*/
+
+/*    .header > .logo-collab {*/
+/*        width: auto;*/
+/*    }*/
+
+/*    .header > .sobre {*/
+/*        font-size: var(--size-medium);*/
+/*    }*/
+
+/*    .header > .menu {*/
+/*        width: 30px;*/
+/*    }*/
+/*}*/

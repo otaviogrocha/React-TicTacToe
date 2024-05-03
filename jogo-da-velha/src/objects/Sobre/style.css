@@ -6,3 +6,7 @@
     text-decoration: none;
     text-transform: uppercase;
 }
+
+.light{
+    color: var(--color-zero);
+}

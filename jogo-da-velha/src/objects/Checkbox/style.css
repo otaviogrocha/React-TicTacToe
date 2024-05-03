@@ -2,6 +2,12 @@
     display: none;
 }
 
+.label {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .label::before {
     content: '';
     display: inline-block;
@@ -11,6 +17,7 @@
     box-sizing: border-box;
     cursor: pointer;
     border-radius: 5px;
+    margin-right: 5px;
 }
 
 .input:checked + .label::before {
